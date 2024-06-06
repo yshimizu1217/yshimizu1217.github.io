@@ -1,1 +1,0 @@
-# yshimizu1217.github.io
