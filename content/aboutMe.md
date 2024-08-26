@@ -4,9 +4,11 @@ date: 2022-01-25T14:00:00.000Z
 authorbox: false
 sidebar: false
 menu: main
+weight: 9999
 ---
 
-I have been working with network equipment for over 20 years. I also have experience building Linux and Windows Server.
+I have been working with network equipment for over 20 years. I also have experience building Linux and Windows Server.  
+I am posting an article on [Qiita](https://qiita.com/yshimizu).
 
 
 ### OS with installation experience.
