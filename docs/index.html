@@ -110,13 +110,7 @@
 
 <script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
-
-<script src="https://www.google.com/recaptcha/api.js"></script>
-<script>
-    function onSubmit() {
-        document.getElementById("myForm").submit()
-    }
-</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <title>
 yShimizu&#39;s Portfolio
@@ -548,9 +542,9 @@ yShimizu&#39;s Portfolio
                             <div class="form-group pt-3">
                                 <textarea class="form-control" name="message" required="true" placeholder='Enter your message here' rows="5"></textarea>
                             </div>
+                            <div class="g-recaptcha" data-sitekey="6LenjsQqAAAAACYUIKCZ3HnioO2TYMODB_6fXHno"></div>
                             <div class="form-group text-center pt-3">
-                                <button class="g-recaptcha" data-sitekey="6LeaisQqAAAAAOIR4Bwuv7nPhx4MfKuhVLBCFk3z"
-                                    data-callback='onSubmit' data-action='submit' class="btn">Send</button>
+                                <button type="submit" class="btn">Send</button>
                             </div>
                         </form>
                     </div>
